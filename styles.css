@@ -1,0 +1,55 @@
+body {
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+  background-image: url("to_do_list-wallpaper-1024x576.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.card-header,
+.input-group-append > button,
+i {
+  background-color: rgb(237, 208, 202);
+}
+#AddTaskInput {
+  font-size: 20px;
+}
+a {
+  color: gray;
+  float: right;
+  margin-top: auto;
+  flex: end;
+}
+.fa-plus {
+  color: white;
+  margin: auto;
+}
+.card {
+  width: 30rem;
+  margin: auto;
+}
+.form-check > input[type="text"] {
+  border: none;
+  font-size: 25px;
+  color: black;
+  width: 65%;
+  height: 55%;
+}
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: white;
+}
+.form-check > input[type="text"] :enabled {
+  border-bottom: 1px solid black;
+}
+.form-check {
+  display: flex;
+  justify-content: space-between;
+}
+.form-group {
+  margin-bottom: 7px;
+}
+#form1 {
+  padding: 4px;
+}
